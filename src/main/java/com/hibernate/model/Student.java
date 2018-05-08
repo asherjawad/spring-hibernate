@@ -20,6 +20,7 @@ public class Student {
   @Column
   private int yearlevel;
   
+  public Student() {}
   
   public Student(int studentid, String firstname, String lastname, int yearlevel) {
 		super();
